@@ -1,0 +1,92 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body{
+  font-family: Segoe UI;
+  background-color: white;
+  margin: 30px 10px auto 10px;
+}
+
+main{
+  background-color: #AAA9AD3F;
+  border-radius: 9px;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  padding: 40px 0 0;
+}
+
+#quote{
+  text-align: center;
+  margin: -15px 0 0;
+  font-family: sans-serif;
+}
+
+figure{
+  background-color: white;
+  margin: 20px auto 0;
+  padding: 50px 0 0 0;
+  width: 90%;
+  min-height: 600px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 9px;
+  margin: 0 auto 20px auto; 
+}
+
+figcaption{
+  margin: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  opacity: 0.85;
+}
+
+section{
+  padding: 0 auto;
+  margin: 20px auto 0;
+  width: 40%;
+}
+
+li{
+  margin: 20px auto;
+  text-align: justify;
+}
+
+
+#headline{
+  padding: 30px 0;
+  text-align: center;
+}
+
+#footnote{
+  padding: 20px 0;
+  text-align: center;
+}
+
+blockquote{
+  padding: 0 auto;
+  margin: 20px auto 20px;
+  width: 34%;
+  text-align: justify;
+  opacity: 0.8;
+  font-size: 17px;
+}
+
+a{
+  color: #78638f;
+}
+
+a:hover{
+  color: blue;
+}
